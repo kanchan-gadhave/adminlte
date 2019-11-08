@@ -21,3 +21,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
 Route::get('/chart', 'HomeController@chart')->name('chart');
+
+Route::get('/edit', 'HomeController@userEdit')->name('edit');
+Route::post('/home', 'HomeController@editprofile')->name('home');
