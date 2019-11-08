@@ -35,13 +35,13 @@
               <li class="nav-item">
                 <a href="{{ URL::route('home')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
+                  <p>User profiles</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{{ URL::route('chart')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
+                  <p>Mail</p>
                 </a>
               </li>
             </ul>
