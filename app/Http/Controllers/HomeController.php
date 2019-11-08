@@ -41,4 +41,17 @@ class HomeController extends Controller
         //return view('layouts/home');
 		return view ('chart');
     }
+	
+	public function userEdit()
+    {
+		//$records = DB::table('users')->get();
+        //return view('layouts/home');
+		return view ('profiles/edit');
+    }
+	public function editprofile(Request $request)
+    {
+		$input = $request->all();
+		print_r($request); exit;
+		return view ('layouts/home')->with('records',$records);
+    }
 }
