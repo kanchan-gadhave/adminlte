@@ -9,7 +9,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
-        <!-- Styles this is styles -->
+        <!-- Styles this is styles to alreadt created -->
         <style>
             html, body {
                 background-color: #fff;
