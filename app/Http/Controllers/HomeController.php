@@ -42,16 +42,16 @@ class HomeController extends Controller
 		return view ('chart');
     }
 	
-	public function userEdit()
+	public function userEdit($id)
     {
-		//$records = DB::table('users')->get();
-        //return view('layouts/home');
-		return view ('profiles/edit');
+		//echo "sdfdfdx".$id; exit;
+		$data=DB::table('users')->first();
+		return view('edit')->with('datas',$data);
     }
 	public function editprofile(Request $request)
     {
 		$input = $request->all();
-		print_r($request); exit;
+		//print_r($request); exit;	
 		return view ('layouts/home')->with('records',$records);
     }
 }
