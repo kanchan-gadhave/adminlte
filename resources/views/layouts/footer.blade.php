@@ -51,7 +51,7 @@
 <!-- Bootstrap Switch -->
 <script src="public/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
 <!-- bs-custom-file-input -->
-<script src="../../plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<script src="public/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
 
 <script>
   $(function () {
