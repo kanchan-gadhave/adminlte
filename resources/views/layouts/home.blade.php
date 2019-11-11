@@ -50,9 +50,8 @@
 								<td>{{$rec->updated_at}}</td>
 								<td>
 									<div class="btn-group">
-									<a href="{{ URL::route('edit') }}" >
-									
-									  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#edit-modal" >
+									<a href="{{url('edit/'.$rec->id)}}"> 								
+									 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#edit-modal" >
 										<i class="fa fa-edit"></I>
 									  </button> </a>
 									  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#delete-modal">
